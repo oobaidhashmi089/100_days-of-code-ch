@@ -24,7 +24,7 @@ function countApplesAndOranges(s, t, a, b, apples, oranges)
     
   }
   
-    for (let i=0 ; i<apples.length;i++)
+    for (let i=0 ; i<oranges.length;i++)
   {
     let sumo= oranges[i]+b;
     if(sumo >=s && sumo<=t)
